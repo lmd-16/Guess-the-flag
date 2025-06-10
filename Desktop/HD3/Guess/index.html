@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Guess the Flag!</title>
+</head>
+<body>
+    <header>
+    <h1>Guess the Flag!</h1>
+    <button class = "btn again" id="again">Again!</button>
+    <div class="container">
+        <img id="flagimage" src="https://flagcdn.com/256x192/ua.png" width="256" height="192" alt="Ukraine"class="custom-image">
+    </div>
+    </header>
+    <main>
+        <div class ="btn-container">
+            <button class="option" onclick="checkAnswer(this)">Option 1</button>
+            <button class="option" onclick="checkAnswer(this)">Option 2</button>
+            <button class="option" onclick="checkAnswer(this)">Option 3</button>
+        </div>
+        <p class="message">Start guessing...</p>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
